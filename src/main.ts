@@ -38,8 +38,8 @@ const buildTable = (table: HTMLTableElement, data: Datum[]) => {
     new ThFilterable(
       'Name',
       data.map(d => d.name),
-      type => {
-        filterTable(table, 0, type)
+      name => {
+        filterTable(table, 0, name)
       },
       () => {
         resetTable(table)
@@ -48,7 +48,7 @@ const buildTable = (table: HTMLTableElement, data: Datum[]) => {
   )
   tHead.insertCell().appendChild(
     new ThFilterable(
-      'Name',
+      'Type',
       data.map(d => d.type),
       type => {
         filterTable(table, 1, type)
