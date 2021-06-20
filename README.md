@@ -1,2 +1,2 @@
 # Vanilla Filterable Table
-Tryna make a vanilla table that you can filter
+Table that can be filtered. Completely vanilla.
