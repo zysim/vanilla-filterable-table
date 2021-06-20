@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#table {
+  table-layout: fixed;
+  width: 60%;
+  border-collapse: collapse;
+  border: solid 1px blueviolet;
+}
+
+td {
+  border: solid 1px blueviolet;
+  padding: 1em 0.5em;
+}
+
+.container {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter {
+  align-self: center;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
